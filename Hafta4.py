@@ -64,16 +64,14 @@
 #
 ##############################################################################
 #
-a=int(input("Bir Sayı Giriniz: "))
-if(a>1000 and a<9999):
-
-    birler=a%10
-    onlar=(a%100)//10
-    yuzler = (a % 1000) // 100
-    binler = (a % 10000) // 1000
-
-    print(birler,onlar,yuzler,binler)
-else:
-    print("Yanlış Sayı Girdiniz ")
+#a=int(input("Bir Sayı Giriniz: "))
+#if(a>1000 and a<9999):
+#    birler=a%10
+#    onlar=(a%100)//10
+#    yuzler = (a % 1000) // 100
+#    binler = (a % 10000) // 1000
+#    print(birler,onlar,yuzler,binler)
+#else:
+#    print("Yanlış Sayı Girdiniz ")
 #
 ##############################################################################
