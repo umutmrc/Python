@@ -271,3 +271,48 @@
 ##########################################################
 ##########################################################
 #
+#kardiz = "medipoleee"
+#print(kardiz.replace("e","E"))
+#print(kardiz.replace("pol","POL"))
+#print(kardiz.replace("e","E"))
+#print(kardiz.replace("e","E",1))
+#print(kardiz.replace("e","E",2))
+#
+##########################################################
+#
+#print(kardiz)
+#
+##########################################################
+#
+#kardiz = "İstanbul Büyükşehir Belediyesi"
+#print(kardiz[0], kardiz[9], kardiz[20], sep="")
+#
+#for i in kardiz.split():
+#    print(i)
+
+#print(kardiz.split())
+#print(kardiz.split(" ", 1))
+
+#for i in kardiz.split(" ", 1):
+#    print(i)
+
+#for i in kardiz.split():
+#    print(i[0], end="")
+
+#print("\n \n")
+
+#kardiz = "Bolvadin, Kilis, Siverek, İskenderun, İstanbul"
+
+#for i in kardiz.split():
+#    print(i)
+#for i in kardiz.split(", "):
+#    print(i)
+#for i in kardiz.split("1"):
+#    print(i)
+#
+##########################################################
+##########################################################
+##########################################################
+##########################################################
+##########################################################
+##########################################################
