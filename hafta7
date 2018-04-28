@@ -1,0 +1,11 @@
+# kullanıcıdan ardışık 10 sayı al bunu liste yap bu listede herhangi bir yerde 2018 geçiyosa bulunmuştur de yoksa yok de
+list= []
+for i in range(10):
+    sayi=int(input("Bir sayı girin"))
+    list.append(sayi)
+print(list)
+for i in range(10):
+    if list[i]==2 or list[i+1]==0 or list[i+2]==1 or list[i+2]==8:
+        print("2018 bulunmuştur")
+        break;
+    
